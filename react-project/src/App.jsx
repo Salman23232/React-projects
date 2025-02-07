@@ -1,11 +1,12 @@
-import CounterReducer from "./Component/CounterReducer"
+import FocusInput from "./Component/FocusInput"
+import Timer from "./Component/Timer"
 
 
 
 const App = () => {
   return (
     <div>
-      <CounterReducer/>
+
     </div>
   )
 }
