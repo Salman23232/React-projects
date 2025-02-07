@@ -15,7 +15,6 @@ const TodoList = () => {
     setValue('')
   }
   return <form onSubmit={submitHandler}>
-    <br /><br /><br /><br /><br />
     <input type="text" value={value} placeholder="Enter the task" name="task" onChange={changeEventHandler}/>
     <button type="submit">Add</button>
     <ul>

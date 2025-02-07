@@ -18,7 +18,7 @@ const AddMovie = () => {
         })
     }
   return (
-    <div><br /><br /><br /><br /><br />
+    <div>
         <div>{movies.name}</div>
         <div>{movies.Actor}</div>
         <div>{movies.rating}</div>

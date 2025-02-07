@@ -1,14 +1,11 @@
-import AddFriend from "./AddFriend"
-import AddMovie from "./AddMovie"
-import TodoList from "./TodoList"
+import CounterReducer from "./Component/CounterReducer"
+
 
 
 const App = () => {
   return (
     <div>
-      <AddFriend />
-      <AddMovie/>
-      <TodoList/>
+      <CounterReducer/>
     </div>
   )
 }
